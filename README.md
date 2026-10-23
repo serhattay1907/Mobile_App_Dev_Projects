@@ -1,45 +1,20 @@
-# 📱 Mobile Application Projects
+# 📱 Android Apps (Java)
 
-This repository is a collection of mobile application projects I've developed. It features various implementations ranging from UI/UX design to backend integration, showcasing my journey in mobile development.
+Android applications built in **Java + Android SDK** during the Mobile Application Development course, ordered from fundamentals to multi-fragment apps.
 
----
+| # | App | What it shows |
+|---|---|---|
+| 01 | [First App](01_First_App) | Project setup, activities, layouts |
+| 02 | [Photo Post App](02_Photo_Post_App) | Multi-activity flow with `Intent`s, camera capture (`ACTION_IMAGE_CAPTURE`), returning results between activities |
+| 03 | [Tic-Tac-Toe](03_Tic_Tac_Toe) | Game state on a 2D board, dynamic click listeners, move validation |
+| 04 | [Movie Browser v1.0](04_Movie_Browser_v1.0) | `RecyclerView` list with a custom adapter inside a `Fragment` |
+| 05 | [Movie Browser v1.1](05_Movie_Browser_v1.1) | Master–detail UI: separate detail activity in portrait, side-by-side fragments in landscape (`layout-land`) |
+| 06 | [Image Downloader](06_Image_Downloader) | Background download with `AsyncTask`, saving to storage, bitmap decoding & scaling |
+| 07 | [Image Downloader v2](07_Image_Downloader_v2) | Iteration on the downloader |
+| 08 | [Notes App](08_Notes_App) | Notes list + edit screen with fragments, `RecyclerView` and fragment arguments |
 
-## 🛠 Tech Stack
-*   **Languages:** [e.g., Java, Kotlin, Dart, Swift]
-*   **Frameworks:** [e.g., Android SDK, Flutter, React Native]
-*   **Architecture:** [e.g., MVVM, MVC, Clean Architecture]
-*   **Tooling:** [e.g., Android Studio, Firebase, RESTful APIs]
+## 🛠 Stack
+Java · Android SDK · Android Studio · Gradle · Fragments · RecyclerView
 
-## 📋 Projects Included
-
-| Project Name | Description | Key Technologies |
-| :--- | :--- | :--- |
-| **App Name 1** | Short description of what this app does. | Language, Framework |
-| **App Name 2** | Short description of what this app does. | Language, Framework |
-
-*(Feel free to add more rows here for each of your projects)*
-
----
-
-## 🚀 Getting Started
-
-To run these projects locally:
-
-1.  **Clone the repository:**
-```bash
-    git clone [https://github.com/serhattay1907/Mobile_App_Dev_Projects.git](https://github.com/serhattay1907/Mobile_App_Dev_Projects.git)
-    ```
-2.  **Open in IDE:** Open the specific project folder in [Android Studio/VS Code/Xcode].
-3.  **Dependencies:** Ensure all required SDKs and dependencies are installed.
-4.  **Build & Run:** Sync your project and deploy it to an emulator or a physical device.
-
-## 📝 Features & Implementation
-*   **UI/UX:** Built with modern design patterns for a smooth user experience.
-*   **Backend Integration:** Seamless communication with APIs or local databases.
-*   **State Management:** Efficient handling of data flow within the application lifecycle.
-
-## 🤝 Contribution
-This is a personal portfolio repository. While feedback is welcome, I am currently not accepting external pull requests for these specific projects.
-
-## 📄 License
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+## ▶️ Run
+Open any app folder in **Android Studio**, let Gradle sync, then run on an emulator or device.
