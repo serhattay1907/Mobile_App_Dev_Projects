@@ -6,7 +6,7 @@ It contains the basic building blocks I learned while starting mobile app develo
 ---
 
 ## 🛠️ Technologies
-- Java / Kotlin (choose the one you used)
+- Java
 - Android Studio
 - Gradle
 
